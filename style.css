@@ -1,74 +1,78 @@
-            border: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ *{margin:0;
+        padding: 0;
+        border: 0;
         }
         body {
-          background-color: #252525;
           background-color: #ee5d5d;
           
         }
-        header {
+        header 
 
         header{
             padding: 32px;
-            border-bottom: 3px solid var(--subcor);
-            background-color: rgba(77, 5, 105, 0.1);
             border-bottom: 1px solid #580a0a;
             background-color: rgb(237, 95, 95);
         }
         header div  {
             text-align: center; 
         }
-        header div a {
-            color: rgb(1, 25, 104); 
-            color: rgb(158, 29, 29); 
-            color: #8f0202; 
+        header div a { 
             color: #8f0202; 
             font-size: 20px; 
             line-height: 30px; 
             margin: 0 16px; 
-
+            text-decoration: none;
             font-family: 'Roboto', sans-serif; 
         }
     header div a:hover{ 
-        color: rgb(103, 7, 133);
         color: #8f0202;
         transition: color 700ms;
     }
     #box {
-                    }
+        text-align: center;
+        padding: 32px;
+    }
     #box img {
         border-radius: 50%;
-        border: 5px solid #42025c;
-        border: 5px solid #570707;
-        border: 5px solid #620505;
         border: 5px solid #620505;
         margin-bottom: 32px;
     }
     #box h1 {
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: bold;
+    }
+    #box h2 {
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: normal;
+        margin-top: 8px;
+        opacity: 0.8;
 
-@@ -56,14 +61,14 @@ font-size: 24px;
-line-height: 34px;
-}
-:root{
-    --subcor:#30006e;
+    }
+    #box p {
+        max-width: 500px;
+        margin: 32px auto;
+        font-size: 24px;
+        line-height: 34px;
+    }
+:root{;
     --subcor:#710202;
 }
 
-header div {
+.links {
     text-align: center;
 }
 .links a {
-    color:white;
     color: #b71414;
     font-size: 20px;
     line-height: 30px;
     margin: 0 16px;
-
-@@ -73,7 +78,7 @@ header div {
-    text-align: center;
+    text-decoration: none;
 }
-.links a {
-    color: white;
-    color: #b71414;
-    font-size: 20px;
-    line-height: 30px;
-    margin: 0 16px;
+.links a:hover {
+    color: #5e0909;
+    transition: 600ms;
+    font-size: 23px;
+}
